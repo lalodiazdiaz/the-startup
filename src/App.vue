@@ -35,7 +35,7 @@ export default {
     this.loop();
     window.addEventListener("keypress", this.coding);
   },
-  destroyed() {
+  unmounted() {
     window.removeEventListener("keypress", this.coding);
   },
 };
