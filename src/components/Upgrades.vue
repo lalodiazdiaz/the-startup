@@ -18,7 +18,7 @@
 
 <script>
 export default {
-  name: "Upgrades",
+  name: "UpGrades",
   computed: {
     upgrades() {
       return this.$store.getters.availableUpgrades;
