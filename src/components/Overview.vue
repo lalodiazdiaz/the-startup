@@ -12,7 +12,7 @@
 
 <script>
 export default {
-  name: "overview",
+  name: "Overview",
   computed: {
     bytes() {
       return Math.round(this.$store.state.bytes);
